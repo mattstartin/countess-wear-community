@@ -1,0 +1,15 @@
+
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('/images/scarecrows.jpg');
+  margin-top: 3%;
+  min-height: 75%;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(0.3)
+}
+.mapImg { width:100% }
+.aboutImg { width: 80%; padding: 10% }
+.iframe { margin-left:10%;border:none;overflow:hidden }
+.iframeSmall { border:none;overflow:hidden  }
