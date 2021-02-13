@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css">
 <head>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-LDG10M14QM"></script>
   <script>
@@ -14,27 +16,159 @@
     gtag('config', 'G-LDG10M14QM');
   </script>
 </head>
-<style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-  background-image: url('/images/scarecrows.jpg');
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-</style>
 <body>
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-center w3-animate-top">Countess Wear Scarecrow Trail</h1>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">15th-22nd February 2021</p>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">More details coming soon</p>
+  <!-- Links (sit on top) -->
+
+
+<div class="w3-sand w3-grayscale w3-large" id="home"></div>
+  <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+    <div class="w3-left">
+      <div class="w3-display-bottomleft w3-container w3-border w3-green"
+          style="bottom:10%;opacity:0.9;width:70%">
+        <h2><b>Countess Wear Scarecrow Trail</b></h2>
+        <h4>15th-22nd February 2021</h4>
+      </div>
+    </div>
+    <div class="w3-center">
+      <div class="w3-bar w3-light-green w3-round w3-display-bottommiddle" style="bottom:-16px">
+        <a href="#map" class="w3-bar-item w3-button">Map</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      </div>
+    </div>
   </div>
 </div>
 
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content">
+    
+    <!-- The App Section -->
+    <div class="w3-padding-16 w3-white">
+      <div class="w3-row-padding ">
+        <div class="w3-col l4 m6">
+          <img src="/images/scarecrow-doll.jpg" class="w3-image w3-right w3-hide-small" width="335" height="471">
+        </div>
+        <div class="w3-col l8 m6 ">
+          <h1 class="w3-xxlarge w3-text-green"><b>Scarecrows are appearing!</b></h1>
+          <p>Building a scarecrow together to help spread some cheer would be a great family activity and hopefully a welcome distraction from lockdown! Let us know if you'd like to add a scarecrow to the trail. They don't have to be fancy, any old bits and bobs you have around to put one together will do!</p>
+          </div>
+      </div>
+      <div class="w3-row-padding">
+
+        <div class="w3-col l8 m6 ">
+          <h1 class="w3-xxlarge w3-text-green"><b>How can I get Involved?</b></h1>
+          <i class="fa fa-child fa-fw w3-hover-text-black w3-margin-right"></i> Let us know that you're taking part by sending us your address<br><br>
+          <i class="fa fa-child fa-fw w3-hover-text-black w3-margin-right"></i> Cobble together a scarecrow from bits and bobs you have around<br><br>
+          <i class="fa fa-child fa-fw w3-hover-text-black w3-margin-right"></i> Put your scarecrow where people can see it<br><br>
+          <i class="fa fa-child fa-fw w3-hover-text-black w3-margin-right"></i> Share the fundraising page<br><br>
+          <i class="fa fa-child fa-fw w3-hover-text-black w3-margin-right"></i> Go find the others on the map!<br>
+    
+        </div>
+        <div class="w3-col l4 m6">
+          <img src="/images/poster.jpg" class="w3-image w3-right w3-hide-small" width="335" height="471">      
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-bottombar w3-border-green ">
+        <div class="w3-col l4 m6">
+          <img src="/images/hospicecare.jpeg" class="w3-image w3-right w3-hide-small" width="335" height="471">
+        </div>
+        <div class="w3-col l8 m6 ">
+          <h1 class="w3-xxlarge w3-text-green"><b>Raising Money</b></h1>
+          <p>If you’d like to join us in supporting a good cause, we’re raising money for Hospiscare through this event and your contribution would make a difference to them. Whether you donate a lot or a little, anything helps. There will also be a physical donation pot located in Lime Kiln Lane for the duration of next week. </p>
+          <br>
+          <button class="w3-button w3-block w3-green"><a href="https://www.facebook.com/donate/505318937122214/505318953788879/"  onclick="gtag('event', 'donate', {'event_category': 'click'} );">Donate now</a></button>
+      
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- Map -->
+<div class="w3-container" id="map">
+  <div class="w3-content w3-light-gray">
+    <h5 class="w3-center w3-padding-16"><span class="w3-tag w3-wide w3-green">MAP</span></h5>
+
+    <!-- <div class="w3-container w3-hide-small">
+      <iframe class="w3-center" width="100%" height="450" class="iframe" src="https://www.google.com/maps/d/embed?mid=1ycUJWrO0EfVWP2NIgnYEnzdc4XuN7jpr&hl=en" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </div>
+    <div class="w3-container w3-hide-large w3-hide-medium">
+      <iframe class="w3-center" width="100%" height="450" class="iframeSmall" src="https://www.google.com/maps/d/embed?mid=1ycUJWrO0EfVWP2NIgnYEnzdc4XuN7jpr&hl=en" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </div>
+    <div class="w3-center w3-padding-16">
+      <a href="files/bookingform.pdf"   onclick="gtag('event', 'newsletterJan20', {'event_category': 'download'} );" class="w3-button w3-green w3-padding-large w3-large" download="bookingform.pdf">
+        <i class="fa fa-file-pdf-o" style="min-width:16px;text-align: center"></i> Printable PDF
+      </a>
+    </div> -->
+
+    <div class="w3-container" id="map">
+      <div class="w3-content">
+
+        <div class="w3-container">
+            <div class="w3-display-container">
+              <img src="/images/staticmap.jpg" class="mapImg w3-margin-top w3-round" style="opacity: 0.3;">
+              <div class="w3-display-bottomleft w3-container w3-border w3-green"
+                style="bottom:10%;opacity:0.9;width:70%">
+              <h4><b>Interactive Map</b></h2>
+              <h5>Coming Soon</h4>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="w3-row-padding w3-bottombar w3-border-green "></div>
+  </div>
+</div>
+
+<!-- Contact -->
+<div class="w3-container" id="contact">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-16"><span class="w3-tag w3-wide w3-green">CONTACT</span></h5>
+   
+        <p>For more information or to put you on the map, drop us an email or get in touch via Facebook</p>
+        <div class="w3-half">
+          <div class="w3-container">
+            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>
+            <a href="mailto:jessicastartin90@gmail.com?subject=Scarecrow Enquiry"  onclick="gtag('event', 'contact', {'event_category': 'emailclick'} );">jessicastartin90@gmail.com</a><br>
+          </div>
+        </div>
+        <div class="w3-half">
+          <div class="w3-container">
+            <i class="fa fa-facebook-official fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 
+            <a href="http://www.facebook.com/countesswearvillagehall" onclick="gtag('event', 'contact', {'event_category': 'facebookclick'} );">@countesswearvillagehall</a><br>
+          </div>
+        </div>
+
+        <div class="w3-center">
+          <div class="w3-container w3-hide-small">
+            <iframe class="w3-center" width="100%" height="450" class="iframe" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcountesswearvillagehall&tabs=timeline&width=500&height=420&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId=1873027913000738" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          </div>
+          <div class="w3-container w3-hide-large w3-hide-medium w3-center">
+            <iframe class="w3-center" width="100%" height="450" class="iframeSmall" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcountesswearvillagehall&tabs=timeline&width=250&height=420&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId=1873027913000738" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          </div>
+        </div>
+        <!-- <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcountesswearvillagehall&tabs=timeline&width=500&height=70&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId=1873027913000738" width="500" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>             -->
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-green w3-padding-16 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+      <a href="http://www.facebook.com/countesswearvillagehall" onclick="gtag('event', 'footer', {'event_category': 'facbookclick'} );"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+
+  </div>
+</footer>
 </body>
 </html>
