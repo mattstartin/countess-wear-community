@@ -17,3 +17,4 @@ body, html {height: 100%}
 .aboutImg { width: 80%; padding: 10% }
 .iframe { margin-left:10%;border:none;overflow:hidden }
 .iframeSmall { border:none;overflow:hidden  }
+.expandIcon {background: url(//www.gstatic.com/gmeviewer/images/viewer-icons001.png); padding:10px; margin-left:10px; width: 21px; height: 21px; -webkit-user-select: none;background-position: -22px -23px; background-color:grey;display: inline-block}
